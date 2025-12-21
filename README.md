@@ -22,8 +22,8 @@ I made some small mistakes, but I believe I updated the schematic to reflect the
 # Media
 ## JLCPCB Ordered, Hand Assembled
 <p align="center">
-  <img src="media/front-pcb-irl.jpg" alt="Assembled PCB front" height="450"/>
-  <img src="media/back-pcb-irl.jpg" alt="Assembled PCB back" height="450"/>
+  <img src="media/front-pcb-irl.jpg" alt="Assembled PCB front" height="400"/>
+  <img src="media/back-pcb-irl.jpg" alt="Assembled PCB back" height="400"/>
 </p>
 
 ## KiCad
@@ -32,12 +32,12 @@ I made some small mistakes, but I believe I updated the schematic to reflect the
   <img
     src="media/PCB-kicad-front.png"
     alt="KiCad PCB front"
-    style="width:500px; height:570px; object-fit:cover;"
+    style="width:500px; height:500px; object-fit:cover;"
   />
   <img
     src="media/PCB-kicad-back.png"
     alt="KiCad PCB back"
-    style="width:500px; height:570px; object-fit:cover;"
+    style="width:400px; height:500px; object-fit:cover;"
   />
 </div>
 
@@ -45,10 +45,8 @@ I made some small mistakes, but I believe I updated the schematic to reflect the
 ### Schematic
 
 <h4 align="center">Main controller</h4>
-
 <img src="media/IntelligentTrafficLight.svg" alt="KiCad Schematic of main control electronics like microcontroler / signal processing" height="700"/>
 
 
 <h4 align="center">555 Timer Circuitry</h4>
-
 <img src="media/IntelligentTrafficLight-Inductive Loop.svg" alt="KiCad Schematic of metal detecting circuit" height="700"/>
