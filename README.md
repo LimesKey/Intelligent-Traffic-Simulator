@@ -45,8 +45,8 @@ I made some small mistakes, but I believe I updated the schematic to reflect the
 ### Schematic
 
 <h4 align="center">Main controller</h4>
-<img src="media/IntelligentTrafficLight.svg" alt="KiCad Schematic of main control electronics like microcontroler / signal processing" height="700"/>
+<img src="media/traffic-light.svg" alt="KiCad Schematic of main control electronics like microcontroler / signal processing" height="700"/>
 
 
 <h4 align="center">555 Timer Circuitry</h4>
-<img src="media/IntelligentTrafficLight-Inductive Loop.svg" alt="KiCad Schematic of metal detecting circuit" height="700"/>
+<img src="media/inductive-loop.svg" alt="KiCad Schematic of metal detecting circuit" height="700"/>
