@@ -32,12 +32,12 @@ I made some small mistakes, but I believe I updated the schematic to reflect the
   <img
     src="media/PCB-kicad-front.png"
     alt="KiCad PCB front"
-    style="width:500px; height:500px; object-fit:cover;"
+    style="width:400px;  object-fit:cover;"
   />
   <img
     src="media/PCB-kicad-back.png"
     alt="KiCad PCB back"
-    style="width:400px; height:500px; object-fit:cover;"
+    style="width:400px; object-fit:cover;"
   />
 </div>
 
