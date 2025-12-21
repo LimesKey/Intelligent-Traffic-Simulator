@@ -428,59 +428,6 @@
     <pre class="language-cpp"><code id="arduinoCode" class="language-cpp">// Loading Arduino code...</code></pre>
   </section>
 
-  <script>
-    // Load code from external file
-    fetch("Code/dutch_traffic_light_code.ino")
-      .then(response => response.text())
-      .then(text => {
-        const codeElement = document.getElementById("arduinoCode");
-        codeElement.textContent = text;
-        // Force Prism to highlight
-        if (typeof Prism !== 'undefined') {
-          Prism.highlightElement(codeElement);
-        }
-      })
-      .catch(err => {
-        document.getElementById("arduinoCode").textContent = "Error loading code: " + err;
-      });
-
-    // Copy-to-clipboard button
-    function copyCode() {
-      const code = document.getElementById("arduinoCode").textContent;
-      navigator.clipboard.writeText(code);
-    }
-
-    // BOM table sorting
-    document.addEventListener('DOMContentLoaded', () => {
-      const table = document.getElementById('bom-table');
-      if (!table) return;
-      const tbody = table.querySelector('tbody');
-      const headers = Array.from(table.querySelectorAll('thead th'));
-      headers.forEach((th, index) => {
-        th.addEventListener('click', () => {
-          const dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
-          headers.forEach(h => h.removeAttribute('data-sort-dir'));
-          th.dataset.sortDir = dir;
-          const rows = Array.from(tbody.rows);
-          const parse = (td) => {
-            const text = td.textContent.trim();
-            if (index === 0 || index === 2) return parseFloat(text) || 0; // Item, Qty
-            if (index === 4 || index === 5) return parseFloat(text.replace(/[^0-9.]/g,'')) || 0; // Costs
-            return text.toLowerCase();
-          };
-          rows.sort((a,b) => {
-            const av = parse(a.cells[index]);
-            const bv = parse(b.cells[index]);
-            if (typeof av === 'number' && typeof bv === 'number') return dir==='asc' ? av - bv : bv - av;
-            return dir==='asc' ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
-          });
-          rows.forEach(r => tbody.appendChild(r));
-        });
-      });
-    });
-  </script>
-
-
   <section id="conclusion">
     <h2>Conclusion</h2>
     <p>The Intelligent Traffic Light successfully demonstrates distance-based traffic alerting using Arduino. 
@@ -517,5 +464,20 @@
 
   </section>
 </main>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("Code/dutch_traffic_light_code.ino")
+    .then(response => response.text())
+    .then(text => {
+      const codeElement = document.getElementById("arduinoCode");
+      codeElement.textContent = text;
+      Prism.highlightElement(codeElement);
+    })
+    .catch(err => {
+      document.getElementById("arduinoCode").textContent = "Error loading code: " + err;
+    });
+});
+</script>
 
 </body>
