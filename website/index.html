@@ -5,12 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dutch Traffic Light System</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/traffic-light-favicon.png">
+  <link rel="icon" type="image/x-icon" href="images/traffic-light-favicon.png">
 
   <!-- Prism.js syntax highlighting -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
 
   <!-- Includes the stylesheet file styles.css -->
@@ -66,7 +65,7 @@
       <strong>LEDs</strong> using <strong>shift registers</strong>. It’s a classic example of expanding digital
       output capabilities with limited Arduino pins.
     </p>
-    <img src="Images/Circuit Simulation.png" alt="Dutch Traffic Light System">
+    <img src="images/Circuit Simulation.png" alt="Dutch Traffic Light System">
   </section>
 
   <section id="environment">
@@ -85,7 +84,8 @@
 
   <section id="bom">
     <h2>Bill of Materials (BoM)</h2>
-    <table border="1" cellspacing="0" cellpadding="6" id="bom-table">
+    <div class="table-wrap">
+      <table id="bom-table">
       <thead>
         <tr>
           <th>Item</th>
@@ -350,13 +350,15 @@
           <td>$0.04</td>
           <td>510 Ω</td>
         </tr>
+
+      </tbody>      <tfoot>
         <tr>
           <td colspan="5" style="text-align:right; font-weight:bold;">Total Cost</td>
           <td style="font-weight:bold;">$55.31</td>
           <td></td>
         </tr>
-      </tbody>
-    </table>
+      </tfoot>    </table>
+    </div>
   </section>
 
   <section id="prototype">
@@ -366,8 +368,8 @@
     <!-- Photo Slider Start -->
     <div class="slider">
       <div class="slides" id="slides">
-        <img src="Images\Still working.JPEG">
-        <img src="Images\Final.JPEG">
+        <img src="images/Still working.JPEG">
+        <img src="images/Final.JPEG">
       </div>
 
       <div class="arrow left" onclick="move(-1)">❮</div>
@@ -423,9 +425,7 @@
       readings.</p>
 
     <button class="copy-btn" onclick="copyCode()">Copy</button>
-    <pre class="line-numbers">
-    <code id="arduinoCode" class="language-cpp">Loading...</code>
-  </pre>
+    <pre class="language-cpp"><code id="arduinoCode" class="language-cpp">// Loading Arduino code...</code></pre>
   </section>
 
   <script>
@@ -435,7 +435,13 @@
       .then(text => {
         const codeElement = document.getElementById("arduinoCode");
         codeElement.textContent = text;
-        Prism.highlightElement(codeElement);
+        // Force Prism to highlight
+        if (typeof Prism !== 'undefined') {
+          Prism.highlightElement(codeElement);
+        }
+      })
+      .catch(err => {
+        document.getElementById("arduinoCode").textContent = "Error loading code: " + err;
       });
 
     // Copy-to-clipboard button
@@ -443,6 +449,35 @@
       const code = document.getElementById("arduinoCode").textContent;
       navigator.clipboard.writeText(code);
     }
+
+    // BOM table sorting
+    document.addEventListener('DOMContentLoaded', () => {
+      const table = document.getElementById('bom-table');
+      if (!table) return;
+      const tbody = table.querySelector('tbody');
+      const headers = Array.from(table.querySelectorAll('thead th'));
+      headers.forEach((th, index) => {
+        th.addEventListener('click', () => {
+          const dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+          headers.forEach(h => h.removeAttribute('data-sort-dir'));
+          th.dataset.sortDir = dir;
+          const rows = Array.from(tbody.rows);
+          const parse = (td) => {
+            const text = td.textContent.trim();
+            if (index === 0 || index === 2) return parseFloat(text) || 0; // Item, Qty
+            if (index === 4 || index === 5) return parseFloat(text.replace(/[^0-9.]/g,'')) || 0; // Costs
+            return text.toLowerCase();
+          };
+          rows.sort((a,b) => {
+            const av = parse(a.cells[index]);
+            const bv = parse(b.cells[index]);
+            if (typeof av === 'number' && typeof bv === 'number') return dir==='asc' ? av - bv : bv - av;
+            return dir==='asc' ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+          });
+          rows.forEach(r => tbody.appendChild(r));
+        });
+      });
+    });
   </script>
 
 
@@ -479,35 +514,6 @@
     <li>Zafar, J. (2023, November 14). <i>Arduino based 4 way traffic signal control</i>. MA Robotic. <a href="https://marobotic.com/2023/11/14/arduino-based-4-way-traffic-signal-control/" target="_blank">https://marobotic.com/2023/11/14/arduino-based-4-way-traffic-signal-control/</a></li>
   </ul>
 </section>
-
-<style>
-  #references {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 20px;
-  }
-
-  .apa-references {
-    list-style: none; /* removes numbering */
-    padding-left: 0;
-  }
-
-  .apa-references li {
-    margin-bottom: 12px;      /* space between references */
-    text-indent: -20px;       /* hanging indent */
-    padding-left: 20px;
-  }
-
-  #references a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-
-  #references a:hover {
-    text-decoration: underline;
-  }
-</style>
 
   </section>
 </main>
