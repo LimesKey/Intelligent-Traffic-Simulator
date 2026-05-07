@@ -1035,6 +1035,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EASYEDA2KICAD:74LVC3G17V8-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC3G17V8-7"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BL"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19948350.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DIODES(美台)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "74LVC3G17V8-7"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C19948350"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC3G17V8-7_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -1707,6 +1969,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1822,145 +2223,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
+	)
+	(text "Replaces resistor dividers"
+		(exclude_from_sim no)
+		(at 131.826 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "007e8414-cc86-4609-8566-40835901a1d1")
 	)
 	(text "555 timer - ~150KHz"
 		(exclude_from_sim no)
@@ -1974,9 +2246,9 @@
 		)
 		(uuid "4f0392db-b0ee-42ec-80b5-4c880ce8fe84")
 	)
-	(text "Use low resistances for resistor divider\nDon't make the mistake I made"
+	(text "Use low resistances for resistor divider"
 		(exclude_from_sim no)
-		(at 135.128 59.69 0)
+		(at 135.128 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2153,12 +2425,6 @@
 		(uuid "31b9313a-3e32-462b-99a0-22ad0ee5999c")
 	)
 	(junction
-		(at 39.37 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32ae238b-fbdf-4a21-a388-6920bf11f5e8")
-	)
-	(junction
 		(at 66.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2225,6 +2491,12 @@
 		(uuid "5d482633-845c-4b7e-99d8-11810ebe43c1")
 	)
 	(junction
+		(at 46.99 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef0073f-7e5f-4bd9-9319-038289a1e0f0")
+	)
+	(junction
 		(at 109.22 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2253,12 +2525,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72919deb-b82c-42f0-8284-fb7c19e45536")
-	)
-	(junction
-		(at 46.99 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73a22f32-1319-47b4-bc97-f50f2ad93e74")
 	)
 	(junction
 		(at 40.64 69.85)
@@ -2307,6 +2573,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89b8d402-92dc-405b-b4a1-739926841d14")
+	)
+	(junction
+		(at 39.37 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d26ea3e-403c-4749-a705-415533156a98")
 	)
 	(junction
 		(at 62.23 158.75)
@@ -2481,6 +2753,16 @@
 			(type default)
 		)
 		(uuid "03113eef-e570-4253-8a1a-c41e6758d38b")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03418ae9-7265-48e2-8db6-f895d88506d5")
 	)
 	(wire
 		(pts
@@ -2964,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 39.37 41.91)
+			(xy 39.37 38.1) (xy 39.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3194,6 +3476,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629a80b2-fb95-4e73-a203-7f18c66bde7f")
+	)
+	(wire
+		(pts
 			(xy 66.04 74.93) (xy 66.04 82.55)
 		)
 		(stroke
@@ -3244,6 +3536,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 107.95) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5cef78-aebc-4ddb-ae6b-aa689e06d1d1")
+	)
+	(wire
+		(pts
 			(xy 50.8 27.94) (xy 50.8 38.1)
 		)
 		(stroke
@@ -3271,6 +3573,16 @@
 			(type default)
 		)
 		(uuid "7112f62d-d403-423f-a1e0-7a49ee7fdf04")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 138.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b869f8-8df3-409c-806c-574aa5e3391c")
 	)
 	(wire
 		(pts
@@ -3531,6 +3843,16 @@
 			(type default)
 		)
 		(uuid "9573a341-d5ed-4ebe-a422-d0b7136c9637")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958677f8-9909-444a-b28a-5ce78da35634")
 	)
 	(wire
 		(pts
@@ -3954,6 +4276,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 96.52) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65c115f-0068-421f-a7a3-113c9ac6dddc")
+	)
+	(wire
+		(pts
 			(xy 175.26 119.38) (xy 184.15 119.38)
 		)
 		(stroke
@@ -4014,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 109.22) (xy 46.99 116.84)
+			(xy 46.99 106.68) (xy 46.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4194,6 +4526,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb02f066-4910-46a6-8b0d-a2431cec460f")
+	)
+	(wire
+		(pts
 			(xy 190.5 69.85) (xy 194.31 69.85)
 		)
 		(stroke
@@ -4252,6 +4594,26 @@
 		)
 		(uuid "fe8f3f37-aadd-46f9-becc-2a8d6fbde0b6")
 	)
+	(label "OUT3"
+		(at 252.73 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31b0cd5c-15ef-4e2a-88ab-b194a74a1cd3")
+	)
+	(label "OUT1"
+		(at 120.65 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35411cb9-642f-4da4-b309-688b2e3b2c28")
+	)
 	(label "OUT2"
 		(at 105.41 134.62 0)
 		(effects
@@ -4260,7 +4622,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "15216f7e-4f1a-4bc4-a4cd-f97e5473c75d")
+		(uuid "41103f73-87dc-4f1e-b43a-6b7912c2d62d")
 	)
 	(label "OUT3"
 		(at 207.01 92.71 0)
@@ -4272,15 +4634,15 @@
 		)
 		(uuid "59e02688-78c2-4fd2-815a-0afb3faf2ea4")
 	)
-	(label "OUT3"
-		(at 252.73 87.63 0)
+	(label "OUT1"
+		(at 109.22 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5e37bfe7-dceb-48e8-a577-5243704a9f59")
+		(uuid "71b1fb95-ffae-4dd8-850f-43bdf2aa285d")
 	)
 	(label "OUT1"
 		(at 63.5 50.8 0)
@@ -4292,15 +4654,15 @@
 		)
 		(uuid "9331fc48-e073-4a64-8d22-8b3adbee4ac7")
 	)
-	(label "OUT1"
-		(at 109.22 45.72 0)
+	(label "OUT2"
+		(at 120.65 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a8c79cdb-1d51-4d2b-b36c-ad5a4a1d6267")
+		(uuid "cd695bf4-be6a-4186-93f0-5cf3795ff9ce")
 	)
 	(label "OUT2"
 		(at 59.69 139.7 0)
@@ -4312,27 +4674,59 @@
 		)
 		(uuid "d6d35f4d-48f0-4c72-8252-251e76685402")
 	)
+	(label "OUT3"
+		(at 138.43 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0d07a44-950c-4c16-af26-b9d57488ce69")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 46.99 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3681e161-2019-46a4-900d-db8c73f99310")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 30.48 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45f68ae8-b3f2-44f8-a64e-3852b9f0e6ff")
+	)
 	(hierarchical_label "555TIMER-OUT_2"
 		(shape input)
-		(at 111.76 144.78 0)
+		(at 144.78 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "275872c1-1488-4c82-b6e4-f6b29bdcf6a4")
+		(uuid "612527df-cc14-4dc1-8371-2f3528f284ca")
 	)
-	(hierarchical_label "555TIMER-OUT_3"
+	(hierarchical_label "555TIMER-OUT_1"
 		(shape input)
-		(at 259.08 97.79 0)
+		(at 144.78 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e368ec11-4d0d-4ace-927e-41a050adf585")
+		(uuid "72264b2f-bb2c-4479-a5b5-e788f2b48355")
 	)
 	(hierarchical_label "555TIMER-OUT_1"
 		(shape input)
@@ -4343,7 +4737,84 @@
 			)
 			(justify left)
 		)
-		(uuid "f30bf18a-2ee0-4c84-86dd-fe102a175da2")
+		(uuid "83f83c4e-40bd-41b5-9ba6-7363c72bde96")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 34.29 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "890c9311-8116-4630-9087-e4735ee7977e")
+	)
+	(hierarchical_label "555TIMER-OUT_2"
+		(shape input)
+		(at 111.76 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "914ea6f1-4a09-46e2-b303-2e8fe7b42297")
+	)
+	(hierarchical_label "555TIMER-OUT_3"
+		(shape input)
+		(at 259.08 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1c6905a-0801-4897-ae4f-a7616a04a07a")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 194.31 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b37d3310-4986-4e8a-9784-307a22ca4225")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 177.8 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5757d71-7497-4fe8-85fb-796e485bf251")
+	)
+	(hierarchical_label "555TIMER-OUT_3"
+		(shape input)
+		(at 113.03 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec8ff5cf-ddde-4d2b-9cbc-ee7daed58cb9")
+	)
+	(hierarchical_label "VBUS_SENSOR_IN"
+		(shape input)
+		(at 50.8 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2f0f693-ee5a-42c0-a896-b044397d883c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4418,6 +4889,84 @@
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033cb650-c2ce-4ca3-b0e6-19fc6c116309")
+		(property "Reference" "#PWR079"
+			(at 144.78 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 144.78 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7d18d29-c264-404a-b944-d2a1a045df2c")
+		)
+		(instances
+			(project "IntelligentTrafficLight"
+				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4806,7 +5355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 41.91 0)
+		(at 39.37 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4814,10 +5363,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14542c42-96f1-4588-b9b4-264ace84af9c")
 		(property "Reference" "#PWR039"
-			(at 39.37 48.26 0)
+			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +5376,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 46.99 0)
+			(at 42.672 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4838,7 +5386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 41.91 0)
+			(at 39.37 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 41.91 0)
+			(at 39.37 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +5408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 41.91 0)
+			(at 39.37 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +5535,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "16e72712-c05d-420f-959e-afd284b5689a")
 		(property "Reference" "R34"
@@ -5035,6 +5583,37 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 109.22 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 109.22 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
 			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5992,115 +6571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 30.48 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3780cd1e-21f1-4d77-8620-ad3368d22957")
-		(property "Reference" "#PWR036"
-			(at 30.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 30.48 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 30.48 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 30.48 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 30.48 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 30.48 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87bd6fe4-42c5-4b15-afaf-3bd3da9f7290")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Antenna_Loop")
 		(at 214.63 138.43 180)
 		(unit 1)
@@ -6500,8 +6970,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 50.8 22.86 0)
+		(lib_id "EASYEDA2KICAD:74LVC3G17V8-7")
+		(at 129.54 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6510,9 +6980,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48f3626e-9c6c-44b8-b3fc-21b34a3b4420")
-		(property "Reference" "#PWR035"
-			(at 50.8 26.67 0)
+		(uuid "4cd9a10e-0cde-472d-8406-eab56a3711ec")
+		(property "Reference" "U8"
+			(at 129.54 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC3G17V8-7"
+			(at 129.54 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BL"
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6522,18 +7012,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 50.8 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 22.86 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19948350.pdf"
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,8 +7023,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 22.86 0)
+		(property "Description" ""
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,8 +7034,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 50.8 22.86 0)
+		(property "Manufacturer" "DIODES(美台)"
+			(at 129.54 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,28 +7045,8 @@
 				)
 			)
 		)
-		(property "Voltage Rating" ""
-			(at 50.8 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 50.8 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 50.8 22.86 0)
+		(property "MPN" "74LVC3G17V8-7"
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6595,14 +7055,46 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC Part" "C19948350"
+			(at 129.54 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "69eefec8-af71-41cf-949c-114db5e402f5")
+		)
+		(pin "5"
+			(uuid "4494fd72-e3d9-4b9a-a2a2-3c988de17156")
+		)
+		(pin "7"
+			(uuid "ca95a8eb-17c2-484c-a0df-3856cfc30916")
+		)
+		(pin "4"
+			(uuid "fa907e16-285b-41f6-8471-cb07b6abfc42")
+		)
+		(pin "6"
+			(uuid "911353ee-a775-4602-bd6a-d4ddbd022cd6")
+		)
+		(pin "3"
+			(uuid "86b1a1a2-25e6-4212-980e-c0726624d6bb")
+		)
+		(pin "2"
+			(uuid "b2c2e6f6-f412-4962-a44e-87b1202031fb")
 		)
 		(pin "1"
-			(uuid "a3d3c929-1226-489a-9454-70427a5be448")
+			(uuid "ddd21fd7-827c-4567-9553-2101041d292b")
 		)
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR035")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6617,7 +7109,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e111ceb-cfdf-4c13-a69f-82cf5962eab1")
 		(property "Reference" "R32"
@@ -6665,6 +7157,37 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 105.41 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 105.41 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
 			(at 105.41 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7258,7 +7781,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d8250c9-8988-4c86-b806-c40da9429d09")
 		(property "Reference" "R38"
@@ -7316,6 +7839,37 @@
 				)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 252.73 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 252.73 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 252.73 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fed8534b-d057-4774-86ab-e07f5bd3c6c0")
 		)
@@ -7340,7 +7894,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83c4ff05-aa23-435c-aa9b-1dadd76f33ae")
 		(property "Reference" "R31"
@@ -7388,6 +7942,37 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 105.41 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 105.41 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
 			(at 105.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7784,8 +8369,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 177.8 90.17 0)
+		(lib_id "power:GND")
+		(at 116.84 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7793,10 +8378,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f4c2a41-7351-47e9-b5d5-b257bcea2d3a")
-		(property "Reference" "#PWR046"
-			(at 177.8 93.98 0)
+		(uuid "8fbc9ef6-bf45-43d0-953e-a5023ef4b40e")
+		(property "Reference" "#PWR053"
+			(at 116.84 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,8 +8390,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 177.8 85.09 0)
+		(property "Value" "GND"
+			(at 116.84 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7817,7 +8401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 90.17 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +8412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 90.17 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7838,39 +8422,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 177.8 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 177.8 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 177.8 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 177.8 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,12 +8434,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f70d69f8-d809-4309-9d23-b70ba2c1f546")
+			(uuid "2750971f-46cd-4d0d-a12c-0b17333ddeca")
 		)
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8586,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "922bc94c-c6cd-43cd-8f51-28f26f8088e3")
 		(property "Reference" "R37"
@@ -8081,6 +8634,37 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 252.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 252.73 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 252.73 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
 			(at 252.73 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8755,115 +9339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 34.29 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e06a684-3bbb-4ba4-813b-fef708904f7c")
-		(property "Reference" "#PWR037"
-			(at 34.29 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 34.29 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 34.29 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 34.29 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b1236dd-4482-414d-8cf4-99a960a6aaf7")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 232.41 87.63 90)
 		(unit 1)
@@ -9224,7 +9699,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c177b655-6a05-43f1-a5ae-83103901033e")
 		(property "Reference" "R33"
@@ -9272,6 +9747,37 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 109.22 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 109.22 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
 			(at 109.22 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10363,115 +10869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 194.31 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f757bc50-78b7-49f4-8e9a-3e60f73574c2")
-		(property "Reference" "#PWR042"
-			(at 194.31 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 194.31 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 194.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 194.31 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 194.31 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 194.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e203c83-449c-4d86-8f0d-59bb44d17b50")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 115.57 0)
 		(unit 1)
@@ -10661,115 +11058,6 @@
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 46.99 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa704351-2525-40bd-a14b-215ebf554af1")
-		(property "Reference" "#PWR040"
-			(at 46.99 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 46.99 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 46.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 46.99 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 46.99 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 46.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "027099e3-99fb-43c0-b109-5f001c1bb207")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

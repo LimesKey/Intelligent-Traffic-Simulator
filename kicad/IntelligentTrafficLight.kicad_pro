@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -224,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -731,16 +744,20 @@
       {
         "filename": "IntelligentTrafficLight.kicad_sch",
         "name": "IntelligentTrafficLight",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "ecd1a8ab-a44f-40c2-99b5-33f347d94115"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR53,#PWR79,U3,U8",
     "variants": []
   },
   "sheets": [
     [
       "ecd1a8ab-a44f-40c2-99b5-33f347d94115",
-      "Root"
+      "IntelligentTrafficLight"
+    ],
+    [
+      "673268a4-cb6a-4867-a62e-ef282a2d0b9f",
+      "Power Interface"
     ],
     [
       "11c0b0f5-864e-4ad4-909c-f8f9ede65306",
