@@ -315,6 +315,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1986,522 +2133,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA2KICAD:MX5052SL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MX5052SL"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOP-8_L5.1-W3.9-P1.27-LS6.0-BL"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C22396835"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MX5052SL_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -5.08 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EASYEDA2KICAD:TT0314TPX"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TT0314TPX"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:DFN2510-10_L2.5-W1.0-P0.50-BL"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C5307962"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TT0314TPX_0_1"
-				(rectangle
-					(start -7.62 8.89)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 7.62)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 6.35 0)
-					(length 2.54)
-					(name "I/O_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "I/O_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "I/O_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "I/O_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 6.35 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:TPD3E001DRYR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3552,16 +3183,6 @@
 		)
 		(uuid "20feb78d-fde2-468a-9b2d-68add82ec496")
 	)
-	(text "GPIO_0 protected with 100Ω and 30mA polyfuse"
-		(exclude_from_sim no)
-		(at 136.652 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ac09f65-5104-4fc7-83c2-2c68d911a579")
-	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
 		(at 229.616 18.288 0)
@@ -3574,53 +3195,11 @@
 		)
 		(uuid "9f3662be-652c-40ff-bbd5-459063ac227b")
 	)
-	(text "TVS Diode\n3.5V Clamping\n3.3V Vrwm"
-		(exclude_from_sim no)
-		(at 134.62 112.776 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a5d32e4d-00c7-46de-a225-4147ef103b6b")
-	)
-	(text "Ideal Diode\nVf - 40mV"
-		(exclude_from_sim no)
-		(at 156.21 158.242 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f1e8663a-836b-455b-ab5e-0eced5799741")
-	)
-	(text "Ideal Diode\nVf - 40mV"
-		(exclude_from_sim no)
-		(at 117.602 157.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fb726583-bade-451e-aee7-ca8adf501f8c")
-	)
-	(junction
-		(at 170.18 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06910918-4e8e-4d56-8d46-a55af42e60ca")
-	)
 	(junction
 		(at 269.24 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06f8218b-cc85-4e9b-bd02-3209343b1a1d")
-	)
-	(junction
-		(at 106.68 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08c6fc35-215c-4e5d-84a2-b3a660b9b138")
 	)
 	(junction
 		(at 40.64 105.41)
@@ -3641,24 +3220,6 @@
 		(uuid "22912a3e-2117-45d9-a883-a5090a61c247")
 	)
 	(junction
-		(at 170.18 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2baf05d5-fc45-4abf-ad04-6f5f8e44333a")
-	)
-	(junction
-		(at 54.61 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39ec0c03-8afa-46ff-9cde-400b66ed65fa")
-	)
-	(junction
-		(at 132.08 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "414e87f5-20fb-4a57-8845-735323ac0eb7")
-	)
-	(junction
 		(at 208.28 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3671,25 +3232,13 @@
 		(uuid "4342ac8e-1725-45d7-8bcd-01014c55109d")
 	)
 	(junction
-		(at 132.08 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44515782-c89d-4d04-8c88-c283880becbf")
-	)
-	(junction
 		(at 208.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48236577-df74-48c5-9c88-e77656b916ce")
 	)
 	(junction
-		(at 170.18 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48b1d622-9cdd-4ae1-a447-4a66353311cc")
-	)
-	(junction
-		(at 48.26 140.97)
+		(at 46.99 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e433788-d5c9-4775-9ed4-d5f9926e8f68")
@@ -3701,16 +3250,16 @@
 		(uuid "504aa8f1-e4c7-4c64-9db2-622c552ab027")
 	)
 	(junction
-		(at 34.29 127)
+		(at 33.02 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60ff894a-525c-4ffe-996c-9e425ea81d0e")
 	)
 	(junction
-		(at 140.97 152.4)
+		(at 26.67 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64fbd91f-c11e-4044-8c65-ab335f55674f")
+		(uuid "739b9350-8d62-433e-b4d6-fb5112cc04ab")
 	)
 	(junction
 		(at 264.16 31.75)
@@ -3725,22 +3274,10 @@
 		(uuid "7b83dbf1-3beb-45e9-9f39-4d2dcee75383")
 	)
 	(junction
-		(at 48.26 134.62)
+		(at 46.99 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845dc560-20d3-48d6-9365-b08f86a80906")
-	)
-	(junction
-		(at 132.08 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a925fad-6068-4cd2-87f6-08b67c196a95")
-	)
-	(junction
-		(at 140.97 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a03cdd0f-d57a-4e85-a5c1-c315e4ea2563")
 	)
 	(junction
 		(at 215.9 30.48)
@@ -3749,7 +3286,7 @@
 		(uuid "a12a6501-7597-468f-bfc1-ae1c4b26b5e9")
 	)
 	(junction
-		(at 34.29 134.62)
+		(at 33.02 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9754495-c3a8-470c-b621-82f71cdab146")
@@ -3773,10 +3310,10 @@
 		(uuid "da7d9be9-7401-47e0-a8b7-84d753c5ed72")
 	)
 	(junction
-		(at 26.67 91.44)
+		(at 54.61 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de120078-478e-40e6-b750-38ee10306333")
+		(uuid "e5102e6a-d3f3-4570-b3e2-f3513caea68a")
 	)
 	(junction
 		(at 217.17 38.1)
@@ -3802,23 +3339,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 44.45 127)
+			(xy 46.99 146.05) (xy 43.18 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04be5e86-cd3f-4f64-ae96-8dd6230af661")
-	)
-	(wire
-		(pts
-			(xy 127 152.4) (xy 132.08 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05635fd8-ef88-4746-8066-d3eb8d078596")
 	)
 	(wire
 		(pts
@@ -3862,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.97) (xy 48.26 140.97)
+			(xy 43.18 160.02) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3879,6 +3406,16 @@
 			(type default)
 		)
 		(uuid "0e812b49-dd22-4d46-8162-8078487186cf")
+	)
+	(wire
+		(pts
+			(xy 26.67 82.55) (xy 26.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe29fc3-d90e-4aca-bf17-b68e6ea7d31d")
 	)
 	(wire
 		(pts
@@ -3902,16 +3439,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 147.32 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f99fa8d-ffec-425d-93e9-4272264433d2")
-	)
-	(wire
-		(pts
 			(xy 238.76 54.61) (xy 238.76 58.42)
 		)
 		(stroke
@@ -3922,43 +3449,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 140.97) (xy 34.29 140.97)
+			(xy 35.56 160.02) (xy 33.02 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "239756de-caf2-4dfc-93d5-f71bd56f1d63")
-	)
-	(wire
-		(pts
-			(xy 106.68 149.86) (xy 109.22 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24773a88-7547-4e25-854c-e5006dd52c60")
-	)
-	(wire
-		(pts
-			(xy 132.08 147.32) (xy 132.08 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29bd1ee1-dd94-4acd-9947-f1102a582b85")
-	)
-	(wire
-		(pts
-			(xy 109.22 152.4) (xy 106.68 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b374f2a-a1e5-42c5-81fc-8a9c12c8497b")
 	)
 	(wire
 		(pts
@@ -3992,16 +3489,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 152.4) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3875c204-bdec-40d3-bd55-5fed3924a82e")
-	)
-	(wire
-		(pts
 			(xy 50.8 58.42) (xy 45.72 58.42)
 		)
 		(stroke
@@ -4009,16 +3496,6 @@
 			(type default)
 		)
 		(uuid "3b7526a9-708c-433d-88a0-8d1900931b56")
-	)
-	(wire
-		(pts
-			(xy 165.1 147.32) (xy 170.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4661bd-c1ee-4184-8237-4b4fb0dd4ef4")
 	)
 	(wire
 		(pts
@@ -4062,16 +3539,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 77.47) (xy 54.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd46c81-d180-47e5-894a-4486d73c7e50")
-	)
-	(wire
-		(pts
 			(xy 207.01 45.72) (xy 208.28 45.72)
 		)
 		(stroke
@@ -4082,33 +3549,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 147.32) (xy 132.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6d27fa-f4a2-4cae-9f2c-ae28703b025f")
-	)
-	(wire
-		(pts
-			(xy 34.29 127) (xy 36.83 127)
+			(xy 33.02 146.05) (xy 35.56 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f0a3da1-bb88-4620-a308-385006232f41")
-	)
-	(wire
-		(pts
-			(xy 140.97 144.78) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5162c320-2c4c-4ae7-b32a-1e01eee4b7a2")
 	)
 	(wire
 		(pts
@@ -4119,16 +3566,6 @@
 			(type default)
 		)
 		(uuid "5282ecb9-d3cd-4b9d-94ab-c2816aa5a159")
-	)
-	(wire
-		(pts
-			(xy 102.87 153.67) (xy 102.87 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5516beb3-251e-4cb3-973a-5a2a2d0870f4")
 	)
 	(wire
 		(pts
@@ -4152,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 134.62) (xy 34.29 140.97)
+			(xy 33.02 153.67) (xy 33.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4182,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 34.29 134.62)
+			(xy 33.02 146.05) (xy 33.02 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4202,16 +3639,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 105.41) (xy 119.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6542a061-2db9-48fc-abd0-3130b360b211")
-	)
-	(wire
-		(pts
 			(xy 40.64 57.15) (xy 40.64 58.42)
 		)
 		(stroke
@@ -4222,43 +3649,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 144.78) (xy 170.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a79f9c-5e82-4e3f-9193-aafd3271af38")
-	)
-	(wire
-		(pts
-			(xy 34.29 123.19) (xy 34.29 127)
+			(xy 33.02 142.24) (xy 33.02 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "687ffa3e-cf4d-4860-89b4-33bbda0d5af2")
-	)
-	(wire
-		(pts
-			(xy 102.87 144.78) (xy 109.22 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a75e85c-69e2-425a-ba78-4e83ffb0ccc9")
-	)
-	(wire
-		(pts
-			(xy 132.08 143.51) (xy 132.08 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab0a9a8-21d5-4203-be9d-7737d82da989")
 	)
 	(wire
 		(pts
@@ -4272,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 48.26 134.62)
+			(xy 43.18 153.67) (xy 46.99 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4322,37 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 101.6) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7719c788-0f30-435f-9bde-989dee418c8b")
-	)
-	(wire
-		(pts
-			(xy 140.97 152.4) (xy 147.32 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77de4001-8789-4c0f-8c22-b1a6b9e3a02e")
-	)
-	(wire
-		(pts
-			(xy 127 149.86) (xy 132.08 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae90cb9-af7c-4afb-81f3-4cbdacbaff5f")
-	)
-	(wire
-		(pts
-			(xy 48.26 144.78) (xy 48.26 140.97)
+			(xy 46.99 163.83) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4369,36 +3736,6 @@
 			(type default)
 		)
 		(uuid "800793eb-68ac-4587-b417-c27887293b99")
-	)
-	(wire
-		(pts
-			(xy 144.78 101.6) (xy 149.86 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d280d6-9832-4038-ae5e-6595b9f6dcd9")
-	)
-	(wire
-		(pts
-			(xy 140.97 147.32) (xy 147.32 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d466d7-efbe-423d-a454-240b908a505c")
-	)
-	(wire
-		(pts
-			(xy 26.67 88.9) (xy 26.67 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89bb583a-dddd-4da3-bba2-02168566bc98")
 	)
 	(wire
 		(pts
@@ -4442,16 +3779,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 153.67) (xy 140.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939d3634-fbe5-48b0-9872-808515e6cb11")
-	)
-	(wire
-		(pts
 			(xy 50.8 57.15) (xy 50.8 58.42)
 		)
 		(stroke
@@ -4482,17 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 142.24) (xy 170.18 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9920059b-5a57-460c-8744-1c64b276f417")
-	)
-	(wire
-		(pts
-			(xy 54.61 87.63) (xy 54.61 91.44)
+			(xy 54.61 90.17) (xy 54.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4502,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 134.62) (xy 48.26 140.97)
+			(xy 46.99 153.67) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4522,26 +3839,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 132.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33c9fb6-1b71-4b43-8e52-f1a3082acb18")
-	)
-	(wire
-		(pts
-			(xy 140.97 149.86) (xy 140.97 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b751cf96-3b2e-4d02-9ca9-3bbf13041d47")
-	)
-	(wire
-		(pts
 			(xy 217.17 39.37) (xy 215.9 39.37)
 		)
 		(stroke
@@ -4549,16 +3846,6 @@
 			(type default)
 		)
 		(uuid "b8db7bdc-d49f-4d63-8df4-a2c8fad39f47")
-	)
-	(wire
-		(pts
-			(xy 140.97 152.4) (xy 140.97 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23aa689-dfb9-456e-82da-ee57da333522")
 	)
 	(wire
 		(pts
@@ -4582,26 +3869,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 149.86) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3b7f0bc-afaa-4d67-984b-347e6c2057f0")
-	)
-	(wire
-		(pts
-			(xy 165.1 149.86) (xy 170.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3df1356-95f9-43e3-a0b1-cfb0a7487d81")
-	)
-	(wire
-		(pts
 			(xy 209.55 49.53) (xy 208.28 49.53)
 		)
 		(stroke
@@ -4622,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 134.62) (xy 36.83 134.62)
+			(xy 33.02 153.67) (xy 35.56 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4649,26 +3916,6 @@
 			(type default)
 		)
 		(uuid "cc5dc250-b18f-4579-9e94-ba6486785cea")
-	)
-	(wire
-		(pts
-			(xy 102.87 142.24) (xy 102.87 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4d0180-303b-4c3e-b6cf-a84aa9f9aa27")
-	)
-	(wire
-		(pts
-			(xy 170.18 149.86) (xy 170.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb5ee01-2679-431b-af94-03ef53108547")
 	)
 	(wire
 		(pts
@@ -4712,16 +3959,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 144.78) (xy 132.08 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d511db04-1d2f-42c0-9269-19cd70412fcb")
-	)
-	(wire
-		(pts
 			(xy 217.17 38.1) (xy 217.17 39.37)
 		)
 		(stroke
@@ -4752,33 +3989,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 48.26 134.62)
+			(xy 46.99 146.05) (xy 46.99 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcce2863-82a7-434c-ad01-20c812436f87")
-	)
-	(wire
-		(pts
-			(xy 132.08 152.4) (xy 132.08 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11866c3-ed53-4e98-8d37-129cfb9e628f")
-	)
-	(wire
-		(pts
-			(xy 140.97 142.24) (xy 140.97 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3eb217d-a796-4862-9d7e-7fa67f2f0c9f")
 	)
 	(wire
 		(pts
@@ -4802,16 +4019,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 109.22) (xy 40.64 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79fc12d-a7ff-4acf-8650-eef9110cea8a")
-	)
-	(wire
-		(pts
 			(xy 208.28 39.37) (xy 207.01 39.37)
 		)
 		(stroke
@@ -4819,26 +4026,6 @@
 			(type default)
 		)
 		(uuid "e9c3d99f-27eb-4ed1-9a26-2d87c55a9e5f")
-	)
-	(wire
-		(pts
-			(xy 149.86 101.6) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea94f4a2-ca8d-4975-a79b-1483d8391991")
-	)
-	(wire
-		(pts
-			(xy 170.18 144.78) (xy 165.1 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe6781b-f5f2-45e5-bf62-314edf79ee54")
 	)
 	(wire
 		(pts
@@ -4852,26 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 147.32) (xy 170.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeba4aae-422c-4fa5-8c9b-3a01d84b620f")
-	)
-	(wire
-		(pts
-			(xy 102.87 147.32) (xy 109.22 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0d9924-42de-4190-8b8e-135e0c6e53e7")
-	)
-	(wire
-		(pts
 			(xy 35.56 58.42) (xy 35.56 59.69)
 		)
 		(stroke
@@ -4879,16 +4046,6 @@
 			(type default)
 		)
 		(uuid "ef41efd6-8f3b-4854-b51a-850b988c0377")
-	)
-	(wire
-		(pts
-			(xy 165.1 152.4) (xy 170.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1983cbf-3145-4fe8-a621-01a8d8be7c44")
 	)
 	(wire
 		(pts
@@ -4951,26 +4108,6 @@
 		)
 		(uuid "222e81b6-9b97-4203-9241-3c08236e49ed")
 	)
-	(label "GPIO_0"
-		(at 100.33 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b71a791-77cc-4cfc-b8cf-b91961a65c8e")
-	)
-	(label "GPIO_0"
-		(at 124.46 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2bd44209-578b-4f71-b2f2-5f210c7e92b5")
-	)
 	(label "VBUS_{fused}"
 		(at 226.06 27.94 180)
 		(effects
@@ -4992,16 +4129,6 @@
 			(justify right bottom)
 		)
 		(uuid "594e2bf0-f790-44a9-b533-e06520f33787")
-	)
-	(label "GPIO_0"
-		(at 170.18 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b20c77a3-aa74-4974-9dda-4177a3076057")
 	)
 	(hierarchical_label "USB D+"
 		(shape bidirectional)
@@ -5048,83 +4175,6 @@
 		(uuid "ecd83e7f-01ac-4015-82bc-634ca2200e83")
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 102.87 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0068d4a1-358c-4805-a3bb-c362c97c17f6")
-		(property "Reference" "#PWR071"
-			(at 102.87 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 103.251 137.8458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 102.87 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cc8ee89-fcd8-4418-a4d1-4fe04fadfbbf")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 212.09 39.37 270)
 		(unit 1)
@@ -5135,7 +4185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02165024-431b-48bb-9410-e4bcf6a370bb")
-		(property "Reference" "R44"
+		(property "Reference" "R34"
 			(at 212.09 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +4346,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "R44")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5383,7 +4433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 110.49 0)
+		(at 100.33 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5393,8 +4443,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6d8ca9-3e16-4189-ae70-0ca39617c75a")
-		(property "Reference" "#PWR033"
-			(at 73.66 116.84 0)
+		(property "Reference" "#PWR044"
+			(at 100.33 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5405,7 +4455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 115.57 0)
+			(at 100.33 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5415,7 +4465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 110.49 0)
+			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 110.49 0)
+			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,7 +4487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 110.49 0)
+			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,86 +4503,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 105.41 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "111efdf8-6227-4776-907f-a977d9030e53")
-		(property "Reference" "#PWR077"
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.828 109.474 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cb400c5-2562-4412-b94d-e3568d1c7ea2")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR077")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5550,7 +4521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a577489-7cf7-4b54-848c-1d81e23df5d5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR045"
 			(at 184.15 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +4582,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR027")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5619,7 +4590,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 134.62 90)
+		(at 39.37 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5628,8 +4599,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21b895a4-d106-40e5-aed3-f3b0277310af")
-		(property "Reference" "C10"
-			(at 40.64 131.572 90)
+		(property "Reference" "C17"
+			(at 39.37 150.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5639,7 +4610,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 45.212 132.588 90)
+			(at 43.942 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5649,7 +4620,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.45 133.6548 0)
+			(at 43.18 152.7048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 134.62 0)
+			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +4642,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 134.62 0)
+			(at 39.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +4653,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472967"
-			(at 40.64 134.62 90)
+			(at 39.37 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +4672,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5709,7 +4680,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 106.68 90)
+		(at 100.33 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5719,8 +4690,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237f345a-75c8-4cea-b029-3f16cbe3af56")
-		(property "Reference" "D4"
-			(at 77.47 106.9974 90)
+		(property "Reference" "D7"
+			(at 104.14 94.2974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5731,7 +4702,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 77.47 109.5374 90)
+			(at 104.14 96.8374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5742,7 +4713,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +4724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5764,7 +4735,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,7 +4746,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +4757,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5796,7 +4767,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5806,7 +4777,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 73.66 106.68 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,137 +4796,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:MX5052SL")
-		(at 156.21 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2726251d-aca5-411a-b6d6-c0976722167a")
-		(property "Reference" "U14"
-			(at 156.21 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX5052SL"
-			(at 156.21 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOP-8_L5.1-W3.9-P1.27-LS6.0-BL"
-			(at 156.21 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22396835"
-			(at 156.21 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 156.21 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 156.21 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "27e85528-d303-42d1-abfc-3f07cb5df47b")
-		)
-		(pin "3"
-			(uuid "cbd4a90c-287b-4720-8263-bd038b2547c7")
-		)
-		(pin "8"
-			(uuid "2bb3a8d1-133b-499b-9761-a05da0290a0b")
-		)
-		(pin "2"
-			(uuid "a1071740-933a-47cb-838b-a236ee0748ff")
-		)
-		(pin "1"
-			(uuid "1ea01243-fc24-45b7-8e6b-dbd1b498bc79")
-		)
-		(pin "5"
-			(uuid "9a3e854d-3f80-4f64-a193-5f75aafd89f4")
-		)
-		(pin "7"
-			(uuid "5e76fc5c-0c89-410e-be7e-01f3b1c5a834")
-		)
-		(pin "6"
-			(uuid "5b5eda44-0eb7-4631-a7dd-27b55345c75c")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "U14")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5963,7 +4804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 109.22 0)
+		(at 40.64 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5973,8 +4814,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4dabd3-844a-4bb7-b084-931e201de922")
-		(property "Reference" "#PWR024"
-			(at 40.64 115.57 0)
+		(property "Reference" "#PWR040"
+			(at 40.64 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +4826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 114.3 0)
+			(at 40.64 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5995,7 +4836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 109.22 0)
+			(at 40.64 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 109.22 0)
+			(at 40.64 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,7 +4858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 109.22 0)
+			(at 40.64 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +4874,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6050,7 +4891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f5dcec7-a920-48e0-8d01-82750f1a8af5")
-		(property "Reference" "TP14"
+		(property "Reference" "TP10"
 			(at 203.2 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,84 +5040,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 140.97 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "340ce18f-9056-420e-b369-f59f38227337")
-		(property "Reference" "#PWR075"
-			(at 140.97 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS_{unregulated}"
-			(at 141.351 137.8458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 140.97 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d0f42f9-cc6b-4d42-ae67-bd53e3ed5cd2")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR075")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6372,7 +5136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3798b4e9-bbec-4bb2-b0c5-e8b258ba4aa2")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 215.9 20.955 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +5196,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6450,7 +5214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dcc28a0-4160-4187-8a1a-9b3ae28344c8")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 251.46 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +5387,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6631,7 +5395,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 140.97 90)
+		(at 39.37 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6640,8 +5404,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d6ea28-7f63-4c68-b21b-65912fc008c8")
-		(property "Reference" "C11"
-			(at 40.64 137.922 90)
+		(property "Reference" "C18"
+			(at 39.37 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +5415,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 41.148 144.526 90)
+			(at 39.878 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6661,7 +5425,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.45 140.0048 0)
+			(at 43.18 159.0548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +5436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 140.97 0)
+			(at 39.37 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +5447,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 140.97 0)
+			(at 39.37 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +5458,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472967"
-			(at 40.64 140.97 90)
+			(at 39.37 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +5477,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6721,7 +5485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 127 90)
+		(at 39.37 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6730,8 +5494,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "516034a4-d277-4e6c-a398-e2c6a5271b98")
-		(property "Reference" "C9"
-			(at 40.64 123.698 90)
+		(property "Reference" "C16"
+			(at 39.37 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6741,7 +5505,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 40.64 121.412 90)
+			(at 39.37 140.462 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6751,7 +5515,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.45 126.0348 0)
+			(at 43.18 145.0848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +5526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 127 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +5537,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 127 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +5548,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472967"
-			(at 40.64 127 90)
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,16 +5567,15 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C9")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 105.41 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 54.61 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6820,20 +5583,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "531a0af5-3e36-46b3-8ce7-da58a210574e")
-		(property "Reference" "#PWR073"
-			(at 119.38 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.348 109.474 0)
+		(fields_autoplaced yes)
+		(uuid "5792b3e6-c546-4be7-b1ac-612691b49536")
+		(property "Reference" "TP9"
+			(at 57.15 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6843,8 +5596,19 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 105.41 0)
+		(property "Value" "3V3"
+			(at 57.15 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 105.41 0)
+			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,8 +5629,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 105.41 0)
+		(property "Description" "2-polar test point"
+			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,14 +5639,48 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Voltage Rating" ""
+			(at 54.61 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 54.61 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 54.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d431db5-0cfc-4556-a65e-f2079bfb63dc")
 		)
 		(pin "1"
-			(uuid "cb5bfdfc-cac9-4add-91cb-03f56f54e494")
+			(uuid "ae5e0a4b-4678-49af-b16c-df5484055837")
 		)
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR073")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -6899,7 +5697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5816562c-1399-46bf-ac45-d31799a2c31c")
-		(property "Reference" "U12"
+		(property "Reference" "U5"
 			(at 251.46 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6971,7 +5769,119 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "U12")
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 26.67 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bf0110e-075e-4f8f-926d-ede66bdada13")
+		(property "Reference" "TP7"
+			(at 19.05 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VBUSunreg"
+			(at 17.78 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+			(at 26.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 26.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 26.67 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 26.67 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 26.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea27da57-57db-43a2-b95a-e3b7ab19f4b2")
+		)
+		(pin "1"
+			(uuid "e8ee6bc7-44a1-436c-ace3-a6c2898f6646")
+		)
+		(instances
+			(project "IntelligentTrafficLight"
+				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7082,7 +5992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d221696-0ded-4239-bac7-1a6b81b93480")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR047"
 			(at 223.52 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +6052,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR067")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7150,86 +6060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 153.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d6f6cf2-58af-464e-872b-3f036d115b7b")
-		(property "Reference" "#PWR072"
-			(at 102.87 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.838 157.734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7a5dda3-9984-4ee8-922d-fbb459060896")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 144.78 0)
+		(at 46.99 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7239,8 +6070,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1c2843-b6e3-4278-8e5c-ca976bc15db4")
-		(property "Reference" "#PWR022"
-			(at 48.26 151.13 0)
+		(property "Reference" "#PWR041"
+			(at 46.99 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,7 +6082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 149.86 0)
+			(at 46.99 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7261,7 +6092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 144.78 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +6103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 144.78 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7283,7 +6114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 144.78 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,122 +6130,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:TT0314TPX")
-		(at 134.62 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "775ec331-590d-4dd6-983e-2ed73a748f4b")
-		(property "Reference" "D7"
-			(at 134.62 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TT0314TPX"
-			(at 134.62 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DFN2510-10_L2.5-W1.0-P0.50-BL"
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5307962"
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "079ec11d-858e-47ef-8492-260ac11136ab")
-		)
-		(pin "9"
-			(uuid "8d1dce8c-a15a-45ba-8ec4-6d938dd015b2")
-		)
-		(pin "10"
-			(uuid "859eff48-265d-42dc-9350-56f1e1619d4f")
-		)
-		(pin "6"
-			(uuid "89e4a9ff-0984-4d86-9760-93e474a626f1")
-		)
-		(pin "3"
-			(uuid "01ade1f1-213a-43d1-82a9-04cf2fa8c91b")
-		)
-		(pin "5"
-			(uuid "318b0ac9-a4c2-4b57-a5b8-0f714a300347")
-		)
-		(pin "2"
-			(uuid "c75c41ee-4268-448b-9e90-71c5d77d5c00")
-		)
-		(pin "1"
-			(uuid "e812d1cb-0d31-486c-9836-17a9487527fc")
-		)
-		(pin "8"
-			(uuid "4025ee85-457d-403b-98cf-8ba315491819")
-		)
-		(pin "4"
-			(uuid "8b182d74-606c-4b9b-8ed7-fc1497056274")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "D7")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7432,7 +6148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778cbdd1-e471-41aa-9359-44baf8610987")
-		(property "Reference" "C2"
+		(property "Reference" "C22"
 			(at 271.78 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +6243,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C2")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7535,7 +6251,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 26.67 88.9 0)
+		(at 26.67 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7544,8 +6260,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79c92e9a-a51d-4f80-9ab0-9234304f7af9")
-		(property "Reference" "#PWR023"
-			(at 26.67 92.71 0)
+		(property "Reference" "#PWR037"
+			(at 26.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7556,7 +6272,7 @@
 			)
 		)
 		(property "Value" "VBUS_{unregulated}"
-			(at 27.051 84.5058 0)
+			(at 27.051 67.9958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7566,7 +6282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 88.9 0)
+			(at 26.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +6293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 88.9 0)
+			(at 26.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7588,7 +6304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 26.67 88.9 0)
+			(at 26.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +6320,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR023")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7623,7 +6339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a3a1c00-9a87-4801-9405-0da99dfd57fa")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR048"
 			(at 240.03 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7684,7 +6400,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR068")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7770,8 +6486,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 132.08 143.51 0)
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 40.64 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7779,98 +6495,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "861f5870-1a1b-481c-b571-8c02641e3588")
-		(property "Reference" "#PWR074"
-			(at 132.08 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 131.826 139.192 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58f0567c-8f5a-4644-a312-8c9e5ff85a6c")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 153.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89ebe8e8-f161-430a-91c8-c42c61786af6")
-		(property "Reference" "#PWR076"
-			(at 140.97 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.938 157.734 0)
+		(fields_autoplaced yes)
+		(uuid "87c389ec-cdb0-41ca-8dc7-3cc181e0450d")
+		(property "Reference" "TP8"
+			(at 43.18 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7880,8 +6508,19 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.97 153.67 0)
+		(property "Value" "GND"
+			(at 43.18 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +6531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 153.67 0)
+			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,96 +6541,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16a27986-738d-4e42-8696-c4624eb6a00b")
-		)
-		(instances
-			(project "IntelligentTrafficLight"
-				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:MX5052SL")
-		(at 118.11 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8ba25125-3e7f-42f1-8c11-0629b1f2d65a")
-		(property "Reference" "U13"
-			(at 118.11 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX5052SL"
-			(at 118.11 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOP-8_L5.1-W3.9-P1.27-LS6.0-BL"
-			(at 118.11 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22396835"
-			(at 118.11 162.56 0)
+		(property "Description" "2-polar test point"
+			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,7 +6553,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 118.11 148.59 0)
+			(at 40.64 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 40.64 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8012,7 +6573,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 118.11 148.59 0)
+			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,34 +6583,16 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "77f78abe-310f-4c55-9620-d9d7b466327d")
-		)
-		(pin "3"
-			(uuid "b3dd518e-0142-4757-9626-d5810ae2d584")
-		)
-		(pin "8"
-			(uuid "fc2929c8-e38e-4543-8645-3a1dbaf31cf9")
-		)
 		(pin "2"
-			(uuid "0b238417-7f4c-410c-ac37-2adb9437e8fe")
+			(uuid "5b9d7c47-314a-47b0-b7b9-552847416df1")
 		)
 		(pin "1"
-			(uuid "f036a08b-9a5c-4126-9ae3-54aa7d8d9321")
-		)
-		(pin "5"
-			(uuid "1729e469-c3dd-4fa2-a39f-f98b3c44244e")
-		)
-		(pin "7"
-			(uuid "32b70b63-fea4-4ff6-b4ae-7a4c5249b32a")
-		)
-		(pin "6"
-			(uuid "f4b3766c-792d-4924-b91f-2ca62b4307db")
+			(uuid "74e00012-7c51-4887-b2ac-c5146a0ee9d5")
 		)
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "U13")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -8057,7 +6600,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 73.66 100.33 180)
+		(at 100.33 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8066,8 +6609,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d3f3f5a-8630-4df0-95b2-06d2bc97ae8c")
-		(property "Reference" "R25"
-			(at 70.612 100.584 0)
+		(property "Reference" "R32"
+			(at 97.282 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,7 +6620,7 @@
 			)
 		)
 		(property "Value" "350"
-			(at 76.962 100.838 0)
+			(at 103.632 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8087,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +6641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +6652,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +6663,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8130,7 +6673,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8140,7 +6683,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 73.66 100.33 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8159,7 +6702,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "R25")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8177,7 +6720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd81c93-2847-4208-aca8-f90449152a44")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 35.56 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8237,7 +6780,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8477,7 +7020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2cf8926-3fbc-4215-9edd-1483172d0d13")
-		(property "Reference" "C39"
+		(property "Reference" "C21"
 			(at 266.446 25.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,7 +7183,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C39")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8657,7 +7200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a674e766-e7ec-4faf-a000-3ab1ae85df86")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 30.48 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +7295,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8769,7 +7312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a705f62b-d598-4547-92ae-36bfd9a47cc4")
-		(property "Reference" "R43"
+		(property "Reference" "R33"
 			(at 212.09 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +7473,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "R43")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8948,7 +7491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d59226-0387-4950-a6bd-29b06c440ce1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR046"
 			(at 191.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9009,7 +7552,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR031")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9026,7 +7569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c449abc7-99fa-44e9-a3f0-8aaf2c4e4197")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR051"
 			(at 269.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9117,7 +7660,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR06")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9125,7 +7668,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 34.29 123.19 0)
+		(at 33.02 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9135,8 +7678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d97cf1-2ae7-48c4-93f7-84bed7d95e9f")
-		(property "Reference" "#PWR020"
-			(at 34.29 127 0)
+		(property "Reference" "#PWR038"
+			(at 33.02 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +7690,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 34.29 118.11 0)
+			(at 33.02 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9157,7 +7700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 123.19 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +7711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 123.19 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,7 +7722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 34.29 123.19 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9195,7 +7738,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR020")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9212,7 +7755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c83e8ec7-0886-4624-8132-4b5e6878afa6")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 223.52 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +7815,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9370,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0249d33-68b5-4434-a102-9446be358fed")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR050"
 			(at 264.16 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -9431,7 +7974,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR070")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9439,7 +7982,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 54.61 77.47 0)
+		(at 54.61 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9449,8 +7992,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d48053af-93c6-4f3c-85d5-b6fd832ba5b7")
-		(property "Reference" "#PWR025"
-			(at 54.61 81.28 0)
+		(property "Reference" "#PWR042"
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +8004,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 54.61 72.39 0)
+			(at 54.61 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9471,7 +8014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 77.47 0)
+			(at 54.61 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +8025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 77.47 0)
+			(at 54.61 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9493,7 +8036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 54.61 77.47 0)
+			(at 54.61 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9509,7 +8052,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR025")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9526,7 +8069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd1d4412-7bb9-4a74-b772-dd221ed733bb")
-		(property "Reference" "C40"
+		(property "Reference" "C19"
 			(at 58.42 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9622,7 +8165,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C40")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9639,7 +8182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1032b8a-daa7-4b80-b487-51b5c0c2494b")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG03"
 			(at 274.32 60.325 0)
 			(hide yes)
 			(show_name no)
@@ -9699,7 +8242,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#FLG06")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9718,7 +8261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e42de0cd-acee-4884-8294-fbdfbaa32813")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR049"
 			(at 254 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9779,7 +8322,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR069")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9787,7 +8330,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 73.66 97.79 0)
+		(at 100.33 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9797,8 +8340,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf43489-c30f-41b4-8cc4-9dc283e4645c")
-		(property "Reference" "#PWR026"
-			(at 73.66 101.6 0)
+		(property "Reference" "#PWR043"
+			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +8352,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 73.66 92.71 0)
+			(at 100.33 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9819,7 +8362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 97.79 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 97.79 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +8384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 97.79 0)
+			(at 100.33 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +8400,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "#PWR026")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9865,7 +8408,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 54.61 83.82 0)
+		(at 54.61 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9875,7 +8418,7 @@
 		(dnp no)
 		(uuid "ee0291c2-0b09-42b1-b29c-aa6a43a58ebc")
 		(property "Reference" "F1"
-			(at 57.15 82.5499 0)
+			(at 57.15 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9886,7 +8429,7 @@
 			)
 		)
 		(property "Value" "750mA Hold, 1.5A trip, polyfuse"
-			(at 56.896 85.09 0)
+			(at 56.896 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9897,7 +8440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 88.9 0)
+			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +8452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 83.82 0)
+			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +8463,7 @@
 			)
 		)
 		(property "Description" "Hold current: 750 mA (passes everything your board can throw at it during normal operation, including PCA9685 LEDs at full brightness) Trip current: ~1.5 A (a real short circuit will pull way more than this and trip quickly)"
-			(at 54.61 83.82 0)
+			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +8474,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 54.61 83.82 0)
+			(at 54.61 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9941,7 +8484,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 54.61 83.82 0)
+			(at 54.61 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9951,7 +8494,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 54.61 83.82 0)
+			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10167,7 +8710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac12315-2fd6-4fd6-8d5e-94d250ceca61")
-		(property "Reference" "C38"
+		(property "Reference" "C20"
 			(at 241.3 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +8805,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/673268a4-cb6a-4867-a62e-ef282a2d0b9f"
-					(reference "C38")
+					(reference "C20")
 					(unit 1)
 				)
 			)

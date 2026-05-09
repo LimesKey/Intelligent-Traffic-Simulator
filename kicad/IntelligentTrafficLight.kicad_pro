@@ -237,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.3"
+      "sch_revision": "v0.4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -464,7 +464,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -747,7 +747,7 @@
         "uuid": "ecd1a8ab-a44f-40c2-99b5-33f347d94115"
       }
     ],
-    "used_designators": "#PWR53,#PWR79,U3,U8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

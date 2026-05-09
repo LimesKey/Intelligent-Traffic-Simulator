@@ -2224,9 +2224,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Replaces resistor dividers"
+	(text "Buffer to Replaces resistor dividers"
 		(exclude_from_sim no)
-		(at 131.826 112.014 0)
+		(at 131.318 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 116.84 110.49)
+			(xy 116.84 107.95) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ff6983-78cb-416f-b37a-90f453a91a4a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR060"
 			(at 182.88 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4888,7 +4888,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR047")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4906,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "033cb650-c2ce-4ca3-b0e6-19fc6c116309")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR059"
 			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4966,7 +4966,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR079")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4984,7 +4984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053f1cec-75de-4fa6-8592-c1e66841e214")
-		(property "Reference" "JP1"
+		(property "Reference" "JP6"
 			(at 90.17 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5080,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP1")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -5097,7 +5097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0df1f8df-98c6-4243-abb9-5b6ca506d872")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR061"
 			(at 194.31 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5157,7 +5157,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR049")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "113c00be-f03b-4a24-9b7e-f41f96e1c151")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR054"
 			(at 46.99 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5234,7 +5234,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR041")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12180609-171f-4f1a-8bc3-f09ebc4f6943")
-		(property "Reference" "R30"
+		(property "Reference" "R38"
 			(at 90.17 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5347,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R30")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -5364,7 +5364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14542c42-96f1-4588-b9b4-264ace84af9c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR053"
 			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5424,7 +5424,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR039")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5538,7 +5538,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "16e72712-c05d-420f-959e-afd284b5689a")
-		(property "Reference" "R34"
+		(property "Reference" "R42"
 			(at 111.76 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5633,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R34")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -5732,7 +5732,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "185014af-374c-44fd-8ecf-ce7bea4b8e1a")
-		(property "Reference" "C23"
+		(property "Reference" "C33"
 			(at 59.69 166.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,7 +5794,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C23")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5812,7 +5812,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1881d273-0e74-4a31-bbf3-7e9c43caf291")
-		(property "Reference" "C25"
+		(property "Reference" "C35"
 			(at 177.8 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C25")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -5894,7 +5894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d28ec0d-57f1-48d5-971f-9e0609f697e9")
-		(property "Reference" "C28"
+		(property "Reference" "C38"
 			(at 187.9663 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +5956,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C28")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -6068,10 +6068,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21d49111-acfd-4158-b953-ffd5fd0978be")
-		(property "Reference" "TP7"
-			(at 83.82 88.1379 0)
+		(property "Reference" "TP16"
+			(at 76.708 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6082,7 +6081,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 83.82 90.6779 0)
+			(at 77.724 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6131,7 +6130,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP7")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -6148,7 +6147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "287b82be-73e6-4a1a-9d12-9fa1f37d7288")
-		(property "Reference" "JP6"
+		(property "Reference" "JP3"
 			(at 72.39 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +6212,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP6")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2952a8b6-ae53-4def-97c2-cc43732a883c")
-		(property "Reference" "TP5"
+		(property "Reference" "TP14"
 			(at 53.34 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +6241,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 51.562 91.44 0)
+			(at 58.674 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6291,7 +6290,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP5")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -6309,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd426d9-0a50-4109-86a0-9460cf9a1818")
-		(property "Reference" "R29"
+		(property "Reference" "R37"
 			(at 86.36 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +6403,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R29")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6422,7 +6421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34e35eb0-1674-44ed-b7b4-1042ad0fbc5e")
-		(property "Reference" "C17"
+		(property "Reference" "C27"
 			(at 39.37 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +6485,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C17")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6503,7 +6502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "367bbfc0-4d6a-4b49-b2c2-d890f0c515ac")
-		(property "Reference" "TP2"
+		(property "Reference" "TP11"
 			(at 41.91 179.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6563,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP2")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -6664,7 +6663,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f2ef789-e081-45e5-8a60-0e3ef2e82604")
-		(property "Reference" "C13"
+		(property "Reference" "C23"
 			(at 30.48 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6727,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C13")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425aaa30-7346-4321-b03d-ab87b93abb8e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR055"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6806,7 +6805,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR043")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6822,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4585cac1-2b47-4082-a8bf-131fd44251f4")
-		(property "Reference" "C24"
+		(property "Reference" "C34"
 			(at 62.23 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +6884,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C24")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6903,7 +6902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4587fe31-9c96-4d0a-95d7-c1999de0f1ac")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR056"
 			(at 105.41 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6963,7 +6962,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR044")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7112,7 +7111,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e111ceb-cfdf-4c13-a69f-82cf5962eab1")
-		(property "Reference" "R32"
+		(property "Reference" "R40"
 			(at 107.95 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7206,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R32")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7225,7 +7224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2d94fe-6cf3-44f9-b215-5d0ecc9d24d7")
-		(property "Reference" "C16"
+		(property "Reference" "C26"
 			(at 38.1 63.4935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7288,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C16")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7307,7 +7306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50aa256b-37a2-497c-a0e9-26d0d1b7c393")
-		(property "Reference" "TP12"
+		(property "Reference" "TP21"
 			(at 227.33 127.5079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7367,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP12")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5367d055-ec17-4c8a-b9a9-d36fc043fd77")
-		(property "Reference" "C26"
+		(property "Reference" "C36"
 			(at 181.61 105.4035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7449,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C26")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "557e8923-5c51-46e6-aed3-b15b5b9387c9")
-		(property "Reference" "TP10"
+		(property "Reference" "TP19"
 			(at 189.23 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7527,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP10")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -7545,7 +7544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71e494d3-e7e2-4d4e-8ec5-1266ed3657dd")
-		(property "Reference" "TP3"
+		(property "Reference" "TP12"
 			(at 45.72 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +7556,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 43.942 91.44 0)
+			(at 41.656 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7606,7 +7605,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP3")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "726bd3ae-8d27-4938-9cac-18ba8916d468")
-		(property "Reference" "TP11"
+		(property "Reference" "TP20"
 			(at 202.692 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,7 +7683,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP11")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -7702,7 +7701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d58311c-b6fb-45e3-a5d8-c8b57e47e748")
-		(property "Reference" "R35"
+		(property "Reference" "R43"
 			(at 219.71 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7765,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R35")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7784,7 +7783,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d8250c9-8988-4c86-b806-c40da9429d09")
-		(property "Reference" "R38"
+		(property "Reference" "R46"
 			(at 255.27 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7878,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R38")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -7897,7 +7896,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83c4ff05-aa23-435c-aa9b-1dadd76f33ae")
-		(property "Reference" "R31"
+		(property "Reference" "R39"
 			(at 107.95 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +7991,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R31")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8008,10 +8007,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "885ff354-4c9f-4f57-859b-d1d451149e48")
-		(property "Reference" "TP9"
-			(at 90.17 88.1379 0)
+		(property "Reference" "TP18"
+			(at 89.408 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8022,7 +8020,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 90.17 90.6779 0)
+			(at 89.154 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8071,7 +8069,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP9")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -8089,7 +8087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf82f9b-0609-4523-a3ee-0cb6429e8dec")
-		(property "Reference" "C19"
+		(property "Reference" "C29"
 			(at 40.6463 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8149,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C19")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -8169,7 +8167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6fbfc6-e744-4728-8343-1ca5cc68cfa4")
-		(property "Reference" "TP13"
+		(property "Reference" "TP22"
 			(at 234.95 127.5079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8230,7 +8228,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP13")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8248,7 +8246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ec61a53-aca7-4412-b2c5-d439190fccd1")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 52.9433 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8360,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8370,7 +8368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 110.49 0)
+		(at 116.84 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8379,8 +8377,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fbc9ef6-bf45-43d0-953e-a5023ef4b40e")
-		(property "Reference" "#PWR053"
-			(at 116.84 116.84 0)
+		(property "Reference" "#PWR058"
+			(at 116.84 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8391,7 +8389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 114.808 0)
+			(at 116.84 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8401,7 +8399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8423,7 +8421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8437,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922967ad-2c5d-468e-9ace-898bbf098b09")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 49.1333 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,7 +8569,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8587,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "922bc94c-c6cd-43cd-8f51-28f26f8088e3")
-		(property "Reference" "R37"
+		(property "Reference" "R45"
 			(at 255.27 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +8682,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R37")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8702,7 +8700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931e630a-d48b-4fe1-ba32-813b55b432c9")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 196.4533 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8816,7 +8814,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8834,7 +8832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "956aab5e-5f0d-46e3-b337-043246c85bcd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR052"
 			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8894,7 +8892,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR038")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8912,7 +8910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97510e8a-8e7c-4bb0-b401-a5c9b3c5c022")
-		(property "Reference" "C20"
+		(property "Reference" "C30"
 			(at 40.6463 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,7 +8972,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C20")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8991,7 +8989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9805f515-cbdb-49db-8f3e-bf7fc3274eb6")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 219.71 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9056,7 +9054,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -9074,7 +9072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad2536d-d0e2-4023-be18-3349f2d332f0")
-		(property "Reference" "JP2"
+		(property "Reference" "JP5"
 			(at 86.36 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,7 +9168,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP2")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -9188,7 +9186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da14840-d359-4107-bc73-f8247b7e4f99")
-		(property "Reference" "C22"
+		(property "Reference" "C32"
 			(at 44.4563 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9250,7 +9248,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C22")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -9267,7 +9265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dcea6a2-4938-49ed-b319-6d1ee8ec2b58")
-		(property "Reference" "JP4"
+		(property "Reference" "JP1"
 			(at 64.77 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9332,7 +9330,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9350,7 +9348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01ba6da-f60d-43c2-8561-1294efa11cc8")
-		(property "Reference" "JP3"
+		(property "Reference" "JP9"
 			(at 234.95 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +9444,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP3")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -9464,7 +9462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d3f054-bdbc-400f-855e-a068b9fd263b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP15"
 			(at 80.01 174.4979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +9523,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP6")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -9543,7 +9541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bee17d53-a13c-48bb-8151-dfbe0176206b")
-		(property "Reference" "C21"
+		(property "Reference" "C31"
 			(at 44.4563 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9605,7 +9603,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C21")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9622,7 +9620,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "bf9402e4-d37a-4c7f-ab12-5ac725bc9931")
-		(property "Reference" "C30"
+		(property "Reference" "C40"
 			(at 207.01 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9682,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C30")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9702,7 +9700,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c177b655-6a05-43f1-a5ae-83103901033e")
-		(property "Reference" "R33"
+		(property "Reference" "R41"
 			(at 111.76 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9795,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R33")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9814,7 +9812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1d60671-6ff6-4d41-96df-88f6068edf3f")
-		(property "Reference" "JP8"
+		(property "Reference" "JP7"
 			(at 212.09 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9877,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP8")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3c0bd5-d01a-4257-958d-7903c79b798d")
-		(property "Reference" "C15"
+		(property "Reference" "C25"
 			(at 34.29 152.3935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10041,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C15")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10059,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cff5f55e-7ef5-44e5-85bd-e6cf837e1932")
-		(property "Reference" "C14"
+		(property "Reference" "C24"
 			(at 34.29 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10123,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C14")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10143,7 +10141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2981b57-bf36-4c66-9e74-9e3c82bcc933")
-		(property "Reference" "R27"
+		(property "Reference" "R35"
 			(at 72.39 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10207,7 +10205,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R27")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65465c6-5bee-4dd5-b427-5565f6786dd6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR057"
 			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10285,7 +10283,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR045")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10302,7 +10300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2e49d08-5b83-4ed5-acbe-f335f53056c4")
-		(property "Reference" "JP7"
+		(property "Reference" "JP4"
 			(at 76.2 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,7 +10365,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP7")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e32a75e8-3e91-41a1-8b13-78583580263d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR062"
 			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10445,7 +10443,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "#PWR050")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10463,7 +10461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3abb706-365e-4fea-b733-91dc9cf78829")
-		(property "Reference" "R28"
+		(property "Reference" "R36"
 			(at 76.2 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10527,7 +10525,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R28")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82824b1-112a-414c-96e4-03fbc706b59a")
-		(property "Reference" "TP8"
+		(property "Reference" "TP17"
 			(at 87.63 174.4979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,7 +10604,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP8")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -10719,7 +10717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4078afe-bcd2-43e4-9884-c8c4ef5aa038")
-		(property "Reference" "TP4"
+		(property "Reference" "TP13"
 			(at 55.372 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,7 +10778,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "TP4")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10798,7 +10796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4afd8ae-358e-4ade-99d4-f878ff22d06f")
-		(property "Reference" "C18"
+		(property "Reference" "C28"
 			(at 43.18 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10862,7 +10860,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C18")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10880,7 +10878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89fceab-60f8-4c63-bbe5-607bd00d0983")
-		(property "Reference" "C27"
+		(property "Reference" "C37"
 			(at 186.69 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,7 +10942,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C27")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10962,7 +10960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99fce0c-f042-4f2a-a34c-c74a5e85fb95")
-		(property "Reference" "R36"
+		(property "Reference" "R44"
 			(at 234.95 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11057,7 +11055,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "R36")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -11075,7 +11073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc0efe05-cf19-4557-a5e0-64413b9da244")
-		(property "Reference" "C29"
+		(property "Reference" "C39"
 			(at 187.9663 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11137,7 +11135,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "C29")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11154,7 +11152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd116adf-93cc-4f3e-97c7-450019cd4d7a")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 59.436 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11219,7 +11217,7 @@
 		(instances
 			(project "IntelligentTrafficLight"
 				(path "/ecd1a8ab-a44f-40c2-99b5-33f347d94115/11c0b0f5-864e-4ad4-909c-f8f9ede65306"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
